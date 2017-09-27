@@ -1,0 +1,6 @@
+D:\Git\SonarExperiments\SonarWorks\bin\Debug\SonarWorks.exe.config
+D:\Git\SonarExperiments\SonarWorks\bin\Debug\SonarWorks.exe
+D:\Git\SonarExperiments\SonarWorks\bin\Debug\SonarWorks.pdb
+D:\Git\SonarExperiments\SonarWorks\obj\Debug\SonarWorks.csprojResolveAssemblyReference.cache
+D:\Git\SonarExperiments\SonarWorks\obj\Debug\SonarWorks.exe
+D:\Git\SonarExperiments\SonarWorks\obj\Debug\SonarWorks.pdb

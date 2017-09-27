@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Collections.Generic;
 using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using SonarExperiments.Helpers;
 
 namespace SonarExperiments
@@ -19,7 +8,7 @@ namespace SonarExperiments
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow
     {
         public MainWindow()
         {
@@ -38,6 +27,48 @@ namespace SonarExperiments
                     break;
                 case 1:
                     ChangeView(new DualAlternatingSonarStraight());
+                    break;
+                case 2:
+                    ChangeView(new SonarCorner(100, 100, "Trial 3 - Single Sonar (EZ1) 1m Corner.txt"));
+                    break;
+                case 3:
+                    ChangeView(new SonarCorner(200, 200, "Trial 9 - Single Sonar (EZ1) 2m Corner.txt"));
+                    break;
+                case 4:
+                    ChangeView(new SonarCorner(300, 300, "Trial 11 - Single Sonar (EZ1) 3m Corner.txt"));
+                    break;
+                case 7:
+                    ChangeView(new SonarCorner(100, 100, "Trial 4 - Single Sonar (EZ1) 1m Corner with Elivation.txt"));
+                    break;
+                case 8:
+                    ChangeView(new SonarCorner(200, 200, "Trial 10 - Single Sonar (EZ1) 2m Corner with Elivation.txt"));
+                    break;
+                case 9:
+                    ChangeView(new SonarCorner(300, 300, "Trial 12 - Single Sonar (EZ1) 3m Corner with Elivation.txt"));
+                    break;
+                case 12:
+                    ChangeView(new SonarScan(100, 100, "Trial 13 - Single Sonar (EZ1) 1m Corner Scan 0 till 90.txt"));
+                    break;
+                case 13:
+                    ChangeView(new SonarScan(100, 100, "Trial 14 - Single Sonar (EZ1) 1m Corner Scan 90 till 0.txt"));
+                    break;
+                case 14:
+                    ChangeView(new SonarScan(200, 200, "Trial 15 - Single Sonar (EZ1) 2m Corner Scan 0 till 90.txt"));
+                    break;
+                case 15:
+                    ChangeView(new SonarScan(200, 200, "Trial 16 - Single Sonar (EZ1) 2m Corner Scan 90 till 0.txt"));
+                    break;
+                case 16:
+                    ChangeView(new SonarScan(300, 300, "Trial 21 - Single Sonar (EZ1) 3m Corner Scan 0 till 90.txt"));
+                    break;
+                case 21:
+                    ChangeView(new DScaling(40, "D:\\Git\\Data\\Experiments\\20161117\\1 - Scaling\\D"));
+                    break;
+                case 22:
+                    ChangeView(new DScaling(80, "D:\\Git\\Data\\Experiments\\20161117\\1 - Scaling\\D2"));
+                    break;
+                case 23:
+                    ChangeView(new DScaling(120, "D:\\Git\\Data\\Experiments\\20161117\\1 - Scaling\\D3"));
                     break;
                 default:
                     MainGrid.Children.Clear();
@@ -71,24 +102,26 @@ namespace SonarExperiments
             new Item { Name = "Alternating Straight Line", Category = "Straight Line" },
             new Item { Name = "1m Static Corner", Category = "Static Corner" },
             new Item { Name = "2m Static Corner", Category = "Static Corner" },
+            new Item { Name = "3m Static Corner", Category = "Static Corner" },
             new Item { Name = "1m2m Static Corner", Category = "Static Corner" },
             new Item { Name = "2m1m Static Corner", Category = "Static Corner" },
-            new Item { Name = "3m Static Corner", Category = "Static Corner" },
             new Item { Name = "1m Static Corner Elv", Category = "Elivated Corner" },
             new Item { Name = "2m Static Corner Elv", Category = "Elivated Corner" },
+            new Item { Name = "3m Static Corner Elv", Category = "Elivated Corner" },
             new Item { Name = "1m2m Static Corner Elv", Category = "Elivated Corner" },
             new Item { Name = "2m1m Static Corner Elv", Category = "Elivated Corner" },
-            new Item { Name = "3m Static Corner Elv", Category = "Elivated Corner" },
             new Item { Name = "1m Scan Corner 0 - 90", Category = "Scan Corner" },
             new Item { Name = "1m Scan Corner 90 - 0", Category = "Scan Corner" },
             new Item { Name = "2m Scan Corner 0 - 90", Category = "Scan Corner" },
             new Item { Name = "2m Scan Corner 90 - 0", Category = "Scan Corner" },
+            new Item { Name = "3m Scan Corner 0 - 90", Category = "Scan Corner" },
             new Item { Name = "1m2m Scan Corner 0 - 90", Category = "Scan Corner" },
             new Item { Name = "1m2m Scan Corner 90 - 0", Category = "Scan Corner" },
             new Item { Name = "2m1m Scan Corner 0 - 90", Category = "Scan Corner" },
             new Item { Name = "2m1m Scan Corner 90 - 0", Category = "Scan Corner" },
-            new Item { Name = "3m Scan Corner 0 - 90", Category = "Scan Corner" },
-            new Item { Name = "3m Scan Corner 90 - 0", Category = "Scan Corner" }
+            new Item { Name = "d scalling", Category = "D Scaling" },
+            new Item { Name = "d2 scalling", Category = "D Scaling" },
+            new Item { Name = "d3 scalling", Category = "D Scaling" }
         };
         #endregion
 

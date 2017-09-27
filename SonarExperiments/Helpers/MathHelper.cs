@@ -1,10 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace SonarExperiments.Helpers
 {
     public static class MathHelper
     {
+        public static double GetHypotenuse(int baseLength, double angle)
+        {
+            return baseLength / Math.Cos(angle * Math.PI / 180);
+        }
+
         public static List<double> GetRunningAverage(IEnumerable<int> samples, int period)
         {
             return GetRunningAverage(samples.Select(s => (double) s), period);
@@ -46,5 +52,22 @@ namespace SonarExperiments.Helpers
             }
             return tempSample;
         }
+
+        public static double RestrictRange(double range)
+        {
+            return range > 45 ? 90 - range : range;
+        }
+
+        public static int ConvertRange(int value, int originalStart, int originalEnd, int newStart, int newEnd)
+        {
+            return (int)ConvertRange((double)value, originalStart, originalEnd, newStart, newEnd);
+        }
+
+        public static double ConvertRange(double value, double originalStart, double originalEnd, double newStart, double newEnd)
+        {
+            double scale = (newEnd - newStart) / (originalEnd - originalStart);
+            return (int)(newStart + ((value - originalStart) * scale));
+        }
+
     }
 }

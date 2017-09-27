@@ -9,5 +9,23 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%202%20-%20dual%20and%20alternating%20sonar%20straight%20line.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%203%20-%20single%20sonar%20(ez1)%201m%20corner.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%2011%20-%20single%20sonar%20(ez1)%203m%20corner.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%209%20-%20single%20sonar%20(ez1)%202m%20corner.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%2010%20-%20single%20sonar%20(ez1)%202m%20corner%20with%20elivation.txt" +
+    "")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%2012%20-%20single%20sonar%20(ez1)%203m%20corner%20with%20elivation.txt" +
+    "")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%204%20-%20single%20sonar%20(ez1)%201m%20corner%20with%20elivation.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%2013%20-%20single%20sonar%20(ez1)%201m%20corner%20scan%200%20till%2090" +
+    ".txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%2014%20-%20single%20sonar%20(ez1)%201m%20corner%20scan%2090%20till%200" +
+    ".txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%2015%20-%20single%20sonar%20(ez1)%202m%20corner%20scan%200%20till%2090" +
+    ".txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%2016%20-%20single%20sonar%20(ez1)%202m%20corner%20scan%2090%20till%200" +
+    ".txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/trial%2021%20-%20single%20sonar%20(ez1)%203m%20corner%20scan%200%20till%2090" +
+    ".txt")]
 
 

@@ -4,10 +4,10 @@ namespace SonarExperiments.Helpers
 {
     public class StraightDualSonar : ISonarData
     {
-        public StraightDualSonar(string filepath)
+        public StraightDualSonar(string filePath)
         {
             string line;
-            System.IO.StreamReader file = new System.IO.StreamReader(filepath);
+            System.IO.StreamReader file = new System.IO.StreamReader(filePath);
             while ((line = file.ReadLine()) != null)
             {
                 var split = line.Split(',');

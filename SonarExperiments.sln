@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarExperiments", "SonarExperiments\SonarExperiments.csproj", "{7A7FCA94-9775-4DC0-89C6-5A2FDB2B48E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarWorks", "SonarWorks\SonarWorks.csproj", "{69B46F29-B973-4532-817B-9868F31E7909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7A7FCA94-9775-4DC0-89C6-5A2FDB2B48E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A7FCA94-9775-4DC0-89C6-5A2FDB2B48E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A7FCA94-9775-4DC0-89C6-5A2FDB2B48E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B46F29-B973-4532-817B-9868F31E7909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B46F29-B973-4532-817B-9868F31E7909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B46F29-B973-4532-817B-9868F31E7909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B46F29-B973-4532-817B-9868F31E7909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

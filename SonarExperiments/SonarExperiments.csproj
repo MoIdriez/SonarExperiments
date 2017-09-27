@@ -63,6 +63,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DScaling.xaml.cs">
+      <DependentUpon>DScaling.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DScalingData.cs" />
+    <Compile Include="Helpers\SonarCornerData.cs" />
+    <Compile Include="Helpers\SonarScanData.cs" />
+    <Compile Include="SonarCorner.xaml.cs">
+      <DependentUpon>SonarCorner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SonarScan.xaml.cs">
+      <DependentUpon>SonarScan.xaml</DependentUpon>
+    </Compile>
+    <Page Include="DScaling.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DualAlternatingSonarStraight.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -95,6 +111,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SonarCorner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SonarScan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -115,6 +139,17 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <Content Include="Data\Trial 2 - Dual and Alternating Sonar Straight Line.txt" />
+    <Content Include="Data\Trial 3 - Single Sonar %28EZ1%29 1m Corner.txt" />
+    <Content Include="Data\Trial 11 - Single Sonar %28EZ1%29 3m Corner.txt" />
+    <Content Include="Data\Trial 9 - Single Sonar %28EZ1%29 2m Corner.txt" />
+    <Content Include="Data\Trial 10 - Single Sonar %28EZ1%29 2m Corner with Elivation.txt" />
+    <Content Include="Data\Trial 12 - Single Sonar %28EZ1%29 3m Corner with Elivation.txt" />
+    <Content Include="Data\Trial 4 - Single Sonar %28EZ1%29 1m Corner with Elivation.txt" />
+    <Content Include="Data\Trial 13 - Single Sonar %28EZ1%29 1m Corner Scan 0 till 90.txt" />
+    <Content Include="Data\Trial 14 - Single Sonar %28EZ1%29 1m Corner Scan 90 till 0.txt" />
+    <Content Include="Data\Trial 15 - Single Sonar %28EZ1%29 2m Corner Scan 0 till 90.txt" />
+    <Content Include="Data\Trial 16 - Single Sonar %28EZ1%29 2m Corner Scan 90 till 0.txt" />
+    <Content Include="Data\Trial 21 - Single Sonar %28EZ1%29 3m Corner Scan 0 till 90.txt" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -127,6 +162,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Data\Trial 1 - Dual Sonar Straight Line.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SonarWorks\SonarWorks.csproj">
+      <Project>{69b46f29-b973-4532-817b-9868f31e7909}</Project>
+      <Name>SonarWorks</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

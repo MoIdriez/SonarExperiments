@@ -12,6 +12,11 @@ namespace SonarExperiments.Helpers
     {
         public static LineSeries GetLineSeries(string identifier, IEnumerable<int> samples)
         {
+            return GetLineSeries(identifier, samples.Select(s => (double) s));
+        }
+
+        public static LineSeries GetLineSeries(string identifier, IEnumerable<double> samples)
+        {
             var lineSeries = new LineSeries
             {
                 Title = identifier
@@ -26,6 +31,11 @@ namespace SonarExperiments.Helpers
         }
 
         public static LineSeries GetRunningAverage(string identifier, IEnumerable<int> samples, int period)
+        {
+            return GetRunningAverage(identifier, samples.Select(s => (double)s), period);
+        }
+
+        public static LineSeries GetRunningAverage(string identifier, IEnumerable<double> samples, int period)
         {
             var lineSeries = new LineSeries
             {

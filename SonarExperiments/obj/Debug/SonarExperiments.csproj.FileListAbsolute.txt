@@ -23,3 +23,36 @@ C:\Users\p0079746\documents\visual studio 2015\Projects\SonarExperiments\SonarEx
 C:\Users\p0079746\documents\visual studio 2015\Projects\SonarExperiments\SonarExperiments\obj\Debug\DualAlternatingSonarStraight.g.cs
 C:\Users\p0079746\documents\visual studio 2015\Projects\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments_Content.g.cs
 C:\Users\p0079746\documents\visual studio 2015\Projects\SonarExperiments\SonarExperiments\obj\Debug\DualAlternatingSonarStraight.baml
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\SonarExperiments.exe.config
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments.exe
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments.pdb
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\SonarExperiments.exe
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\SonarExperiments.pdb
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\OxyPlot.dll
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\OxyPlot.Wpf.dll
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\OxyPlot.pdb
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\OxyPlot.xml
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\OxyPlot.Wpf.pdb
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\OxyPlot.Wpf.xml
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments.csprojResolveAssemblyReference.cache
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\MainWindow.baml
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\DualAlternatingSonarStraight.g.cs
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\DualSonarStraight.g.cs
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\MainWindow.g.cs
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarCorner.g.cs
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\App.g.cs
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments_Content.g.cs
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments_MarkupCompile.cache
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments_MarkupCompile.lref
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\DualAlternatingSonarStraight.baml
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\DualSonarStraight.baml
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarCorner.baml
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments.g.resources
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments.Properties.Resources.resources
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarExperiments.csproj.GenerateResource.Cache
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarScan.g.cs
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\SonarScan.baml
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\SonarWorks.exe
+D:\Git\SonarExperiments\SonarExperiments\bin\Debug\SonarWorks.pdb
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\DScaling.g.cs
+D:\Git\SonarExperiments\SonarExperiments\obj\Debug\DScaling.baml
